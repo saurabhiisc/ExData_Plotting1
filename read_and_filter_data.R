@@ -1,5 +1,4 @@
 read_and_filter_data <- function() {
-    setwd("C:/Users/Lenovo/Documents/R/datasciencecoursera1/assignment5/")
     url <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
     file <- "power.zip"
     download.file(url, file)
